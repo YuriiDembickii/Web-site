@@ -56,6 +56,7 @@ ul > li {
     margin-right: -4rem;
 }
 
+.header__telephone-img,
 .header__maps-img,
 .header__inst-img {
     margin-right: 0.5rem;
@@ -68,9 +69,13 @@ ul > li {
     align-items: center;
 }
 
-.header__telephone-text {
-    white-space: pre-wrap;
+.header__telephone-text > span {
+    margin-right: 0.5rem;
 }
+
+/* .header__telephone-text {
+    white-space: pre-line;
+} */
 
 .footer {
     position: relative;
